@@ -235,39 +235,50 @@ body {
 @media only screen and (max-width: 600px) {
 
     .mainpanel {
-        width: 350px;
-        height: 525px;
+        width: 300px;
+        height: 450px;
+        margin-top: -40px;
     }
 
     .buttons {
-        width: 315px;
-        height: 375px;
+        width: 270px;
+        height: 321px;
     }
 
     .buttons button {
-        font-size: 25px;
+        font-size: 20px;
     }
 
     .display {
-        width: 315px;
-        height: 113px;
+        width: 270px;
+        height: 97px;
     }
 
     .equation {
-        font-size: 17px;
+        font-size: 13px;
     }
     
     .numberselect {
-        font-size: 30px;
+        font-size: 20px;
     }
 
     h1 {
-        font-size: 22px;
+        display: none;
     }
 
     .footer a img {
         height: auto;
         width: 20px;
+    }
+
+    .display .equation {
+        padding: 5px 10px;
+        height: 15px;
+    }
+
+    .display p {
+        margin: 5px;
+        margin-right: 15px;
     }
 
 
