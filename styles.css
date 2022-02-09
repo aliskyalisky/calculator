@@ -26,10 +26,15 @@
 }
 
 h1 {
+    display: inline-block;
     padding: 0;
-    margin: 10px 20px;
-    color: #F0E5CE;
+    margin: 0;
+    color: #FFF;
     transition: 1s;
+}
+
+h1.under {
+    color: var(--opbuttonsact)
 }
 
 h1:hover {
